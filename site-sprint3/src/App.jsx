@@ -1,14 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Index from './pages/Index'
+import Head from "./components/Head"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className="text-red-900">Oi</h1>
+      <div className='flex flex-col'>
+        <Head /> 
+        <div className='min-h-screen'>
+          <Index />
+        </div>
+      </div>
     </>
   )
 }
