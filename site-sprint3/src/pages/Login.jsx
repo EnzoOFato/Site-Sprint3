@@ -63,14 +63,14 @@ export default function Login() {
              hover:bg-purple-700 hover:scale-105"
             >
             Entrar
-</button>
+        </button>
         </form>
 
         <div className="flex justify-between mt-5 text-sm">
           <Link to="/esqueceu-senha" className="text-pink-600 hover:underline">
             Esqueceu a senha?
           </Link>
-          <Link to="/criar-conta" className="text-pink-600 hover:underline">
+          <Link to="/criar" className="text-pink-600 hover:underline">
             Criar conta
           </Link>
         </div>
