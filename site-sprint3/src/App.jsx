@@ -1,11 +1,17 @@
 import './App.css'
 import Index from './pages/Index'
+import Head from "./components/Head"
 
 function App() {
 
   return (
     <>
-      <Index />
+      <div className='flex flex-col'>
+        <Head /> 
+        <div className='min-h-screen'>
+          <Index />
+        </div>
+      </div>
     </>
   )
 }
