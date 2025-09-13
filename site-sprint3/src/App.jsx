@@ -1,6 +1,7 @@
 import './App.css'
 import Index from './pages/Index'
 import Head from "./components/Head"
+import Footer from './components/Footer'
 
 function App() {
 
@@ -8,9 +9,10 @@ function App() {
     <>
       <div className='flex flex-col'>
         <Head /> 
-        <div className='min-h-screen'>
+        <div>
           <Index />
         </div>
+        <Footer/>
       </div>
     </>
   )
