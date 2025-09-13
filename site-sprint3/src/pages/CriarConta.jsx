@@ -100,7 +100,7 @@ export default function CriarConta() {
         </form>
 
         <div className="flex justify-center mt-5 text-sm">
-          <Link to="/" className="text-pink-600 hover:underline">
+          <Link to="/login" className="text-pink-600 hover:underline">
             Já tem conta? Faça login
           </Link>
         </div>
