@@ -24,7 +24,7 @@ export default function Head(){
             </nav>
             <div className="text-white w-1/3 text-center">
                 <button className="bg-gray-100 w-50 h-10 rounded hover:bg-transparent transition duration-500 ease-in-out">
-                    <Link to="/login" className="flex text-xl text-pink-600 w-full h-full justify-center items-center hover:text-gray-100 hover:border-2 rounded font-bold">Login/Cadastra-se</Link>
+                    <Link to="/login" className="flex text-xl text-pink-600 w-full h-full justify-center items-center hover:text-gray-100 hover:border-2 rounded">Login/Cadastra-se</Link>
                 </button>
             </div>
             {open && (
