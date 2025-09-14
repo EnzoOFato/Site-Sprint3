@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import loginImg from "../assets/login.png";
+import close from "../assets/close.png"
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -23,6 +24,7 @@ export default function Login() {
       </div>
 
       <div className="flex flex-col justify-center w-full md:w-1/2 bg-white px-8 md:px-16">
+        <Link className="w-10 h-10 absolute top-15 right-20" to="/"><img src={close} alt="fechar" /></Link>
         <h1 className="text-3xl font-bold text-pink-700 mb-6 text-center">
           Passa a Bola
         </h1>

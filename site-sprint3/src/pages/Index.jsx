@@ -35,8 +35,8 @@ export default function Index(){
     ]
 
     return (
-        <div className="flex flex-col w-full">
-            <div className="flex w-full h-350 md:h-300 lg:h-200 bg-gray-100">
+        <div className="flex flex-col w-full bg-gray-100">
+            <div className="flex w-full h-350 md:h-300 lg:h-200 mt-10">
                 <div className="flex items-center justify-center w-1/2 h-full border-r-4 border-pink-700">
                     <h1 className="text-gray-800 lg:text-9xl md:text-7xl text-6xl text-center">Principais Noticías</h1>
                 </div>
