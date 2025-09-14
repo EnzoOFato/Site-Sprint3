@@ -20,7 +20,7 @@ export default function Head(){
                 <Link className="w-1/4 text-center hover:underline transition duration-200" to="/">Home</Link>
                 <Link className="w-1/4 text-center hover:underline transition duration-200">Peneieras</Link>
                 <Link className="w-1/4 text-center hover:underline transition duration-200">Jogadoras</Link>
-                <Link className="w-1/4 text-center hover:underline transition duration-200">Campeonatos</Link>
+                <Link className="w-1/4 text-center hover:underline transition duration-200" to="campeonatos">Campeonatos</Link>
             </nav>
             <div className="text-white w-1/3 text-center">
                 <button className="bg-gray-100 w-50 h-10 rounded hover:bg-transparent transition duration-500 ease-in-out">

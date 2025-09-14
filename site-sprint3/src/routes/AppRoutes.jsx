@@ -3,6 +3,7 @@ import App from "../App"
 import Login from '../pages/Login'
 import Index from '../pages/Index'
 import CriarConta from '../pages/CriarConta'
+import Campeonatos from '../pages/Campeonatos'  
 
 export const router = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ export const router = createBrowserRouter([
             {
                 path: "index",
                 element: <Index />
+            },
+            {
+                path: "campeonatos",
+                element: <Campeonatos />
             }
         ]
     },
