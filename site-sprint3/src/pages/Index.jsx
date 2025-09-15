@@ -1,38 +1,15 @@
 import Marta from "../assets/indexImgs/Marta.png"
+import { useState, useEffect } from "react"
 
 export default function Index(){
-    const peneiras = [
-        {
-            time: "São Paulo-SP",
-            data: "27 de setembro de 2025",
-            imagem: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2026.png"
-        },
-        {
-            time: "Corinthians-SP",
-            data: "22 de setembro de 2025",
-            imagem: "https://s3.static.brasilescola.uol.com.br/be/2023/09/1-escudo-do-corinthians.jpg"
-        },
-        {
-            time: "Palmeiras-SP",
-            data: "14 de dezembro de 2025",
-            imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/250px-Palmeiras_logo.svg.png"
-        },
-        {
-            time: "Flamengo-RJ",
-            data: "18 de janeiro de 2026",
-            imagem: "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
-        },
-                {
-            time: "Cruzeiro-MG",
-            data: "24 de novembro de 2025",
-            imagem: "https://www.ogol.com.br/img/logos/equipas/2236_imgbank_1683640822.png"
-        },
-                {
-            time: "Atlético-MG",
-            data: "25 de novembro de 2025",
-            imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Atletico_mineiro_galo.png/250px-Atletico_mineiro_galo.png"
-        },
-    ]
+    const [peneiras, setPeneiras] = useState([])
+
+    useEffect(() => {
+        fetch("https://68c7483a442c663bd0292293.mockapi.io/jogadoras/info/peneiras")
+        .then(response => response.json())
+        .then(data => setPeneiras(data))
+        .catch(err => console.log(err))
+    },[])
 
     return (
         <div className="flex flex-col w-full bg-gray-100">
