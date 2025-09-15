@@ -69,9 +69,9 @@ export default function Login() {
         </form>
 
         <div className="flex justify-between mt-5 text-sm">
-          <Link to="/esqueceu-senha" className="text-pink-600 hover:underline">
+          <p className="text-pink-600 hover:underline cursor-pointer select-none">
             Esqueceu a senha?
-          </Link>
+          </p>
           <Link to="/criar" className="text-pink-600 hover:underline">
             Criar conta
           </Link>
