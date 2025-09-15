@@ -21,7 +21,7 @@ export default function Index(){
                     <h1 className="lg:text-5xl md:text-3xl text-2xl text-center text-gray-800 font-bold">O que está acontecendo no mundo da bola hoje?</h1>
                     <div className="flex flex-col gap-5">
                         <h1 className="text-center text-gray-800 text-4xl font-bold">Marta melhor da história</h1>
-                        <img src={Marta} alt="pic-marta" className="w-100 h-80 rounded self-center border-2 border-indigo-500"/>
+                        <img src={Marta} alt="pic-marta" className="w-130 h-95 rounded self-center border-2 border-indigo-500"/>
                         <p className="text-center self-center w-2/3 text-xl">Maior artilheira do futebol brasileiro (tanto masculino quanto feminino), Marta foi eleita pela IFFHS, a Federação Internacional de História e Estatísticas do Futebol, como a melhor jogadora da história do futebol feminino.
                         </p>
                     </div>
