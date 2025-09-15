@@ -19,7 +19,7 @@ export default function Head(){
             <nav className="w-1/3 hidden lg:flex justify-center items-center text-xl text-white">
                 <Link className="w-1/4 text-center hover:underline transition duration-200" to="/">Home</Link>
                 <Link className="w-1/4 text-center hover:underline transition duration-200">Peneieras</Link>
-                <Link className="w-1/4 text-center hover:underline transition duration-200">Jogadoras</Link>
+                <Link className="w-1/4 text-center hover:underline transition duration-200" to="jogadoras">Jogadoras</Link>
                 <Link className="w-1/4 text-center hover:underline transition duration-200" to="campeonatos">Campeonatos</Link>
             </nav>
             <div className="text-white w-1/3 text-center">

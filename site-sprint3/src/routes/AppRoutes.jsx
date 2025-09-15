@@ -4,6 +4,7 @@ import Login from '../pages/Login'
 import Index from '../pages/Index'
 import CriarConta from '../pages/CriarConta'
 import Campeonatos from '../pages/Campeonatos'  
+import Jogadoras from '../pages/Jogadoras'
 
 export const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
             {
                 path: "campeonatos",
                 element: <Campeonatos />
+            },
+            {
+                path: "jogadoras",
+                element: <Jogadoras />
             }
         ]
     },
