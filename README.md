@@ -22,7 +22,7 @@ O projeto é dividido em páginas e seções principais:
 * **Rodapé (Footer)** — informações de direitos autorais e redes sociais.  
 
 ## Funcionalidades  
-- **CRUD básico** e exibição de jogadoras (cards interativos com modais).  
+- **CRUD básico** usado apenas o read para pegar as peneiras e jogadoras por meio da API restful.  
 - **Exibição de notícias e eventos esportivos** dinâmicos (API externa para peneiras).  
 - **Inscrição em campeonatos e peneiras** com persistência de dados via LocalStorage.  
 - **Formulários validados** para login, criação de conta e inscrições.  
