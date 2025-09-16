@@ -31,7 +31,7 @@ export default function Jogadoras() {
                 setJogadoraSelecionada(jogadora)
                 setOpen(true)
               }}
-              className="mt-4 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700"
+              className="mt-4 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 cursor-pointer"
             >
               Ver História
             </button>
@@ -48,7 +48,7 @@ export default function Jogadoras() {
             <p className="text-gray-700">{jogadoraSelecionada.historia}</p>
             <button
               onClick={() => setOpen(false)}
-              className="mt-6 px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-800"
+              className="mt-6 px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-800 cursor-pointer"
             >
               Fechar
             </button>

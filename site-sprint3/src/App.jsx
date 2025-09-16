@@ -1,8 +1,6 @@
 import './App.css'
-import Index from './pages/Index'
 import Head from "./components/Head"
 import Footer from './components/Footer'
-import Campeonatos from './pages/Campeonatos'
 import { Outlet } from "react-router-dom";
 
 
