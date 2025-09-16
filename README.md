@@ -3,7 +3,7 @@ Repositório que servirá como a entrega front-end para a sprint 3
 # Passa a Bola - Portal de Futebol Feminino  
 
 ## Link do site
-https://passabolasprint-hj0a8bc6b-enzo-ama-fatobenes-projects.vercel.app/  
+http://passabolasprint.vercel.app/
 
 ## Descrição do Projeto  
 O **Passa a Bola** é um projeto esportivo com o objetivo de facilitar a prática de futebol para mulheres, oferecendo um espaço para acessar informações sobre jogadoras, peneiras e campeonatos. O principal foco do projeto é **cadastrar, listar, gerenciar jogadoras e disponibilizar eventos esportivos**, permitindo que o usuário explore informações, se inscreva em campeonatos e acompanhe notícias do futebol feminino.  
