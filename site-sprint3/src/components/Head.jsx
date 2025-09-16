@@ -9,9 +9,9 @@ export default function Head(){
 
     return (
         <header className="w-full flex h-30 bg-purple-600 items-center justify-around relative">
-            <div className="flex justify-center items-center w-1/3">
-                <img src={logo} alt="logo" className="w-15 h-15"/>
-                <h1 className="text-center text-5xl text-gray-100 font-bold">Passa bola</h1>
+            <div className="flex justify-center items-center sm:w-1/3">
+                <img src={logo} alt="logo" className="sm:w-15 sm:h-15 w-8 h-8"/>
+                <h1 className="text-center sm:text-5xl text-2xl text-gray-100 font-bold">Passa bola</h1>
             </div>
             <button className="w-12 h-12 lg:hidden md:flex sm:flex justify-center items-center cursor-pointer" onClick={() => setOpen(!open)}>
                 <img src={menu} alt="menu-btn" className="object-contain w-12 h-12"/>
@@ -22,10 +22,12 @@ export default function Head(){
                 <Link className="w-1/4 text-center hover:underline transition duration-200" to="jogadoras">Jogadoras</Link>
                 <Link className="w-1/4 text-center hover:underline transition duration-200" to="campeonatos">Campeonatos</Link>
             </nav>
-            <div className="text-white w-1/3 text-center">
-                <button className="bg-gray-100 w-50 h-10 rounded hover:bg-transparent transition duration-500 ease-in-out">
-                    <Link to="/login" className="flex text-xl text-pink-600 w-full h-full justify-center items-center hover:text-gray-100 hover:border-2 rounded">Login/Cadastra-se</Link>
-                </button>
+            <div className="text-white w-1/3 text-center sm:inline hidden">
+                <Link to="/login">
+                    <button className="bg-gray-100 sm:w-50 h-10 rounded hover:bg-transparent transition duration-200 ease-in-out  text-pink-600 cursor-pointer text-xl hover:border hover:border-gray-100">
+                        Login/Cadastra-se
+                    </button>
+                </Link>
             </div>
             {open && (
             <div className="absolute top-full left-0 w-full bg-purple-700 flex flex-col items-center text-white lg:hidden transition-all">
@@ -33,6 +35,7 @@ export default function Head(){
                 <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="peneiras">Peneiras</Link>
                 <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="jogadoras">Jogadoras</Link>
                 <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="campeonatos">Campeonatos</Link>
+                <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="/login">Login/Cadastro</Link>
             </div>
             )}
         </header>

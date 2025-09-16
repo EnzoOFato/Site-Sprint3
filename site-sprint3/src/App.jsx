@@ -8,13 +8,9 @@ function App() {
 
   return (
     <>
-      <div className='flex flex-col'>
-        <Head /> 
-        <div>
-          <Outlet />
-        </div>
-        <Footer/>
-      </div>
+      <Head /> 
+      <Outlet />
+      <Footer/>
     </>
   )
 }

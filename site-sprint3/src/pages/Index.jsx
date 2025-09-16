@@ -16,13 +16,13 @@ export default function Index(){
         <div className="flex flex-col w-full bg-gray-100">
             <div className="flex w-full md:h-300 lg:h-200 mt-10 flex-col sm:flex-row">
                 <div className="flex items-center justify-center sm:w-1/2 border-pink-700 sm:border-r-4 sm:border-b-0 border-b-4 self-center sm:h-full w-9/10 text-nowrap sm:text-wrap sm:p-0 pb-10">
-                    <h1 className="text-gray-800 lg:text-9xl md:text-6xl text-6xl text-center">Principais Noticías</h1>
+                    <h1 className="text-gray-800 lg:text-9xl md:text-6xl text-6xl text-center text-wrap">Principais Noticías</h1>
                 </div>
                 <div className="flex items-center justify-center sm:w-1/2 flex-col sm:gap-15 gap-2 sm:m-0 mt-8 self-center sm:h-full h-1/2 px-10">
-                    <h1 className="text-4xl text-center text-gray-800 font-bold mb-5">O que está acontecendo no mundo da bola hoje?</h1>
+                    <h1 className="text-4xl text-center text-gray-800 mb-5">O que está acontecendo no mundo da bola hoje?</h1>
                     <div className="flex flex-col">
                         <h1 className="text-center text-gray-800 text-4xl font-bold">Marta melhor da história</h1>
-                        <img src={Marta} alt="pic-marta" className="w-120 h-95 rounded self-center border-2 border-indigo-500"/>
+                        <img src={Marta} alt="pic-marta" className="w-100 sm:h-95 h-70 rounded self-center border-2 border-indigo-500"/>
                         <p className="text-center self-center w-2/3 text-xl">Maior artilheira do futebol brasileiro (tanto masculino quanto feminino), Marta foi eleita pela IFFHS, a Federação Internacional de História e Estatísticas do Futebol, como a melhor jogadora da história do futebol feminino.
                         </p>
                     </div>
