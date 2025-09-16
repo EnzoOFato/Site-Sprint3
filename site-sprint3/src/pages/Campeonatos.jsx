@@ -60,7 +60,7 @@ export default function Campeonatos() {
       local: "Brasília - DF",
       imagem: "https://imagens.ebc.com.br/hL5cjJ50oUvWg66DPZaFR8hft6k=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/53307723710_6c4db7aa17_o1.jpg?itok=HKTeuUft",
     },
-  ];
+  ]; // MockApi.io Só Suporta 2 Resources, este é usado com LocalStorage
 
   const handleInscricao = (e) => {
     e.preventDefault();
@@ -109,7 +109,7 @@ export default function Campeonatos() {
               <button
                 onClick={() => setSelected(camp)}
                 disabled={inscritos.includes(camp.nome)}
-                className={`mt-4 w-full py-2 px-4 rounded-lg font-medium transition ${
+                className={`mt-4 w-full py-2 px-4 rounded-lg font-medium transition cursor-pointer ${
                   inscritos.includes(camp.nome)
                     ? "bg-gray-400 text-white cursor-not-allowed"
                     : "bg-purple-600 text-white hover:bg-purple-700"
@@ -167,13 +167,13 @@ export default function Campeonatos() {
                 <button
                   type="button"
                   onClick={() => setSelected(null)}
-                  className="px-4 py-2 rounded-lg bg-gray-300 hover:bg-gray-400 transition"
+                  className="px-4 py-2 rounded-lg bg-gray-300 hover:bg-gray-400 transition cursor-pointer"
                 >
                   Cancelar
                 </button>
                 <button
                   type="submit"
-                  className="px-4 py-2 rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition"
+                  className="px-4 py-2 rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition cursor-pointer"
                 >
                   Confirmar
                 </button>

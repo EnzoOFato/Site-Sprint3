@@ -62,7 +62,7 @@ export default function Login() {
         type="submit"
         className="w-full bg-pink-600 text-white py-2 rounded-lg 
              transition-all duration-300 ease-in-out 
-             hover:bg-purple-700 hover:scale-105"
+             hover:bg-purple-700 hover:scale-105 cursor-pointer"
             >
             Entrar
         </button>

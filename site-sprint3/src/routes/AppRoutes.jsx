@@ -1,11 +1,11 @@
 import {createBrowserRouter} from 'react-router-dom'
 import App from "../App"
 import Login from '../pages/Login'
-import Index from '../pages/Index'
 import CriarConta from '../pages/CriarConta'
 import Campeonatos from '../pages/Campeonatos'  
 import Jogadoras from '../pages/Jogadoras'
 import Peneira from '../pages/Peneira'
+import Index from '../pages'
 
 export const router = createBrowserRouter([
     {
@@ -14,7 +14,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <Index />
+                element: <Index/>
             },
             {
                 path: "index",

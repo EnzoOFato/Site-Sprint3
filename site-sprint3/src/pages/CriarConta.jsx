@@ -95,7 +95,7 @@ export default function CriarConta() {
 
           <button
             type="submit"
-            className="w-full bg-pink-600 text-white py-2 rounded-lg hover:bg-purple-700 transition font-medium"
+            className="w-full bg-pink-600 text-white py-2 rounded-lg hover:bg-purple-700 transition font-medium cursor-pointer"
           >
             Criar Conta
           </button>
