@@ -18,7 +18,7 @@ export default function Head(){
             </button>
             <nav className="w-1/3 hidden lg:flex justify-center items-center text-xl text-white">
                 <Link className="w-1/4 text-center hover:underline transition duration-200" to="/">Home</Link>
-                <Link className="w-1/4 text-center hover:underline transition duration-200">Peneieras</Link>
+                <Link className="w-1/4 text-center hover:underline transition duration-200" to="peneiras">Peneieras</Link>
                 <Link className="w-1/4 text-center hover:underline transition duration-200" to="jogadoras">Jogadoras</Link>
                 <Link className="w-1/4 text-center hover:underline transition duration-200" to="campeonatos">Campeonatos</Link>
             </nav>
@@ -30,9 +30,9 @@ export default function Head(){
             {open && (
             <div className="absolute top-full left-0 w-full bg-purple-700 flex flex-col items-center text-white lg:hidden transition-all">
                 <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="/">Home</Link>
-                <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold">Peneiras</Link>
-                <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold">Jogadoras</Link>
-                <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold">Campeonatos</Link>
+                <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="peneiras">Peneiras</Link>
+                <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="jogadoras">Jogadoras</Link>
+                <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="campeonatos">Campeonatos</Link>
             </div>
             )}
         </header>
