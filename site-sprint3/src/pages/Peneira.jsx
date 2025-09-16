@@ -25,7 +25,7 @@ const Peneiras = () => {
 
   return (
     <div className="bg-gray-50 min-h-screen text-gray-800 p-6 flex flex-col items-center justify-center">
-      <header className="w-full flex h-30 bg-purple-400 items-center justify-around rounded-xl mb-8">
+      <header className="w-full flex h-30 bg-purple-600 items-center justify-around rounded-xl mb-8">
         <h1 className="text-2xl font-bold text-center text-white select-none">Próximas Datas - Peneiras</h1>
       </header>
 
@@ -34,10 +34,10 @@ const Peneiras = () => {
           {peneiras.map((peneira) => {
             return (
               <article key={peneira.id} className="bg-white shadow-lg rounded-xl p-10 hover:shadow-2xl transition duration-200">
-                <h3 className="text-3xl font-bold text-purple-600 mb-2 select-none">{peneira.time}</h3>
-                <p className="text-xl text-gray-700 mb-2 select-none">📅 Data:{peneira.data}</p>
-                <p className="text-xl text-gray-700 mb-4 select-none">📍 Local: {peneira.local}</p>
-                <button onClick={() => setSelected(peneira)}className="bg-purple-400 text-white px-10 py-2 rounded-xl hover:bg-purple-700 cursor-pointer text-2xl text-center">
+                <h3 className="text-3xl font-bold text-purple-600 mb-2 select-none underline">{peneira.time}</h3>
+                <p className="text-xl text-gray-700 mb-2 select-none">Data: {peneira.data}</p>
+                <p className="text-xl text-gray-700 mb-4 select-none">Local: {peneira.local}</p>
+                <button onClick={() => setSelected(peneira)}className="bg-purple-600 text-white px-10 py-2 rounded-xl hover:bg-purple-700 cursor-pointer text-2xl text-center">
                   Inscreva-se
                 </button>
               </article>
