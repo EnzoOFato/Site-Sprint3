@@ -5,7 +5,7 @@ import CriarConta from '../pages/CriarConta'
 import Campeonatos from '../pages/Campeonatos'  
 import Jogadoras from '../pages/Jogadoras'
 import Peneira from '../pages/Peneira'
-import Index from '../pages'
+import Index from '../pages/Index'
 
 export const router = createBrowserRouter([
     {
