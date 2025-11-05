@@ -21,6 +21,7 @@ export default function Head(){
                 <Link className="w-1/4 text-center hover:underline transition duration-200" to="peneiras">Peneieras</Link>
                 <Link className="w-1/4 text-center hover:underline transition duration-200" to="jogadoras">Jogadoras</Link>
                 <Link className="w-1/4 text-center hover:underline transition duration-200" to="campeonatos">Campeonatos</Link>
+                <Link className="w-1/4 text-center hover:underline transition duration-200" to="noticias">Notícias</Link>
             </nav>
             <div className="text-white w-1/3 text-center sm:inline hidden">
                 <Link to="/login">
@@ -36,6 +37,7 @@ export default function Head(){
                 <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="jogadoras">Jogadoras</Link>
                 <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="campeonatos">Campeonatos</Link>
                 <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="/login">Login/Cadastro</Link>
+                <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="/noticias">Noticías</Link>
             </div>
             )}
         </header>
