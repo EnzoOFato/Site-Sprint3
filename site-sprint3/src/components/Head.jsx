@@ -38,6 +38,7 @@ export default function Head(){
                 <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="campeonatos">Campeonatos</Link>
                 <Link className="w-1/4 text-center hover:underline transition duration-200" to="noticias">Notícias</Link>
                 <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="/login">Login/Cadastro</Link>
+                <Link className="py-3 w-full text-center border-b border-purple-500 hover:bg-purple-800 font-bold" to="/noticias">Noticías</Link>
             </div>
             )}
         </header>
