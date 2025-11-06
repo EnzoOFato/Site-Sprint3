@@ -12,10 +12,10 @@ const data = [
 
 
 const COLORS = [
-  '#eb6060ff', 
+  '#db3cacff', 
   '#ec4899', 
   '#6d28d9', 
-  '#9f76ceff', 
+  '#9982e9ff', 
 ];
 
 export default function Grafico() {
