@@ -6,6 +6,7 @@ import Campeonatos from '../pages/Campeonatos'
 import Jogadoras from '../pages/Jogadoras'
 import Peneira from '../pages/Peneira'
 import Index from '../pages/Index'
+import Noticias from '../pages/Noticias'
 
 export const router = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
             {
                 path: "peneiras",
                 element: <Peneira />
+            },
+            {
+                path: "noticias",
+                element: <Noticias />
             }
         ]
     },
