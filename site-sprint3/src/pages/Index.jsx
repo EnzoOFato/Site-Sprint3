@@ -36,9 +36,9 @@ export default function Index(){
 
             <div className="bg-gray-100 py-10 px-6">
                 <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">Peneiras em Destaque</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {peneiras.map((peneira, i) => (
-                        <Card key={i} peneira={peneira} />
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {peneiras.map((index, i) => (
+                        <Card key={i} index={index} />
                     ))}
                 </div>
             </div>
