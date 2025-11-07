@@ -25,9 +25,7 @@ const Peneiras = () => {
 
   return (
     <div className="bg-gray-50 min-h-screen text-gray-800 p-6 flex flex-col items-center justify-center">
-      <header className="w-full flex h-30 bg-purple-600 items-center justify-around rounded-xl mb-8">
-        <h1 className="text-2xl font-bold text-center text-white select-none">Próximas Datas - Peneiras</h1>
-      </header>
+      <h1 className="text-4xl font-bold text-center text-purple-700 select-none mb-8">Próximas Datas - Peneiras</h1>
 
       {loading ? (<p className="text-center text-gray-600">Carregando peneiras...</p>) : (
         <section className="grid md:grid-cols-4 gap-6 max-w-8xl mx-auto">

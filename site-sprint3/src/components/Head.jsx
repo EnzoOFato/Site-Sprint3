@@ -26,7 +26,7 @@ export default function Head(){
             <div className="text-white w-1/3 text-center sm:inline hidden">
                 <Link to="/login">
                     <button className="bg-gray-100 sm:w-50 h-10 rounded hover:bg-transparent transition duration-200 ease-in-out  text-pink-600 cursor-pointer text-xl hover:border hover:border-gray-100">
-                        Login/Cadastra-se
+                        Login/Cadastre-se
                     </button>
                 </Link>
             </div>

@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Card from "../components/Card";
 import Grafico from "../components/ui/Grafico"; 
 
@@ -16,21 +15,20 @@ export default function Index() {
     return (
         <div className="flex flex-col w-full bg-gray-100">
 
-            <div className="flex w-full md:h-300 lg:h-200 mt-10 flex-col sm:flex-row">
+            <div className="flex w-full mt-10 flex-col">
                 
-                <div className="flex items-center justify-center sm:w-1/2 border-pink-700 sm:border-r-4 sm:border-b-0 border-b-4 self-center w-9/10 text-nowrap sm:text-wrap sm:p-0 pb-10">
+                <div className="flex items-center justify-center border-pink-700 border-b-4 self-center w-9/10 text-nowrap pb-10">
                     <h1 className="text-gray-800 lg:text-9xl md:text-6xl text-6xl text-center text-wrap">
                         Principais Noticías
                     </h1>
                 </div>
 
-                <div className="flex flex-col lg:flex-row gap-6 items-center justify-center p-4 sm:w-1/2">
+                <div className="grid lg:grid-cols-2 grid-cols-1 lg:grid-rows-1 grid-rows-2 mt-10 sm:divide-x-4 divide-pink-700 divide-y-4 sm:divide-y-0 w-9/10 self-center">
 
-                    <div className="w-full lg:w-1/2">
+                    <div className="flex justify-center items-center flex-col lg:p-20">
                         <Grafico />
                     </div>
-
-                    <div className="w-full lg:w-1/2 flex flex-col items-center">
+                    <div className="flex flex-col justify-center items-center lg:p-20">
                         <h2 className="text-center text-gray-800 text-3xl font-bold">
                             Cresce percentual de quem assiste ao futebol feminino, aponta pesquisa
                         </h2>
